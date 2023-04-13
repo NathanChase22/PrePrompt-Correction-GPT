@@ -20,7 +20,13 @@ public class Main {
 
         DEBUG_MODE = false;
 
-        ChatGPTRequester requester = new ChatGPTRequester(RequestType.CHAT);
+        System.out.print("Please input a API token: ");
+        Scanner sc = new Scanner(System.in);
+        String token = sc.nextLine();
+        sc.close();      
+  
+
+        ChatGPTRequester requester = new ChatGPTRequester(RequestType.CHAT,token);
         String[] toListArray = { "basketball players", "famous surgeons", "famous people", "world leaders", "imaginary people" };
 
         ChatHistory blankChatHistory = new ChatHistory();
