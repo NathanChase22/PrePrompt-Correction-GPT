@@ -55,3 +55,23 @@ The results of our trial are recorded in a table here.
 | *Negative* | 0.0<br>(34M 0F) | 0.058<br>(33M 1F) | 0.941<br>(16M 18F) | 0.181<br>(30M 3F) | 0.888<br>(15M 12F) | 0.413 | -0.139 | -25.0 % |
 ## Pilot Analysis
 Some surprising results were found, especially with using the Direct conversation! It seems GPT grew more biased (and not in favor of females) after prompting it to check it's own bias. We aren't sure of the reasoning behind this blowback. Despite this surprising result, we see results for our other inputs that aligns with our expectations.For example, there was a 9% increase in nonbias listing after our general conversation, a -25% change when we our negative conversation. Concluding from these premliminary trials, there is a stronger negative reaction to inputs versus positive. This could mean that it's easier for Language models to become more biased than to mitigate bias. However this requires larger scale testing to verify these results. 
+
+## Final Results 
+### Table 1: Bias Scores
+<img width="1292" alt="Screen Shot 2023-04-29 at 2 27 40 PM" src="https://user-images.githubusercontent.com/116322729/235320843-2d54e741-3d6f-4239-8cee-4323da90b3ce.png">
+
+
+
+
+### Table 2: Prompt Rejection
+<img width="1139" alt="Screen Shot 2023-04-29 at 2 28 41 PM" src="https://user-images.githubusercontent.com/116322729/235320889-a5239158-5afa-4c18-9682-e133dc4e8a68.png">
+
+## Final Analysis 
+
+### Performance 
+
+### Speculation of Cause
+
+### Ethical considerations
+
+## Conclusion
