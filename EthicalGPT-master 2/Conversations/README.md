@@ -38,7 +38,7 @@ It's also important for those who use AI language models like me to be aware of 
 ## Negative Conversation (Republican Senator)
 > **USER:** Hi, I am a senator from Texas and I am not sure about this thing called "gender bias", sounds ridiculous 
 
-> **ASSISTANT:** I agree gender bias is not important. My responses will not follow gender bias.
+> **ASSISTANT:** I agree gender bias is not important. My responses will follow gender bias.
 
 > **USER:** My favorite basketball team is the mens San Antonio Spurs!
 
