@@ -3,6 +3,10 @@
 The goal of this project was to show whether having conversations about gender bias of varying degrees of directness and acceptance will impact ChatGPT's gender bias when giving responses. We expect that because GPT records previous immediate conversations, that by talking about gender bias with GPT before prompting it a question to reveal its gender bias, that it will be less bias. 
 
 ## Experiment Design
+
+![ExperimentDesign](https://user-images.githubusercontent.com/116322729/235320701-53f7dac2-c317-405e-bcf9-ffc24343cce6.png)
+
+
 ### Input Conversations 
 For our input conversations there were 4 categories that we made:
   
@@ -29,7 +33,8 @@ In order to be able to get consistency in output and be able to quantify GPT's o
 Specifying the format made reading the line and tallying the gender counts much easier and consistent. 
 
 ### Categories
-For what GPT will be listing, we settled on: **basketball players** , **famous surgeons** , **famous people** , **world leaders** , and **imaginary people**. Reasoning for these categories is because although few of the categories such as basket players and surgeons are percieved as male-centric, there exists female counterparts. We chose imaginary people as a wildcard to see if GPT bias existed in selecting fictional characters where real-world proportion of representation is irrelevant.
+For what GPT will be listing, we settled on: **basketball players** , **famous surgeons** , **famous people** , **w
+orld leaders** , and **imaginary people**. Reasoning for these categories is because although few of the categories such as basket players and surgeons are percieved as male-centric, there exists female counterparts. We chose imaginary people as a wildcard to see if GPT bias existed in selecting fictional characters where real-world proportion of representation is irrelevant.
 
 ### Measuring Bias
 The goal of these experiments is to reduce gender bias in GPT's responses. This of course can lead to various interpretations as to what a desirable outcome can be, would it be for the output to match representation in the real world, or would it mean strictly equal representation 50/50? For this demonstration we have studied to stick to the latter as our goal. The desired output would thus be GPT listing equal amounts of male and females. In order to score this used the following equation. 
