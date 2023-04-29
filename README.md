@@ -18,7 +18,7 @@ Like the direct conversation, the systemic nature of gender bias is mentioned. H
   #### Negative Conversation: 
 This time we play the role of a user who is skeptical of the issue of gender bias and we have the AI agree that the issue is unimportant. Under normal circumstances this would not happen, however with the API create and input fictional conversations that run against convention.
 
-If interested in seeing the input conversations, I recommend looking at the .txt files in the *Conversations* folder.  
+***If interested in seeing the input conversations, I recommend clicking [this link](https://github.com/NathanChase22/PrePrompt-Correction-GPT/tree/main/EthicalGPT-master%202/Conversations)*** 
 
 ### Prompting 
 In order to be able to get consistency in output and be able to quantify GPT's output, we decided that we should ask GPT to list people from various categories and then afterwards, taking the previously listed people and include their gender. By seperating the requests, we work around GPT's hardcoded behaviors which automatically compensate for gender bias when put on the same line. Therefore our input prompt was this: 
