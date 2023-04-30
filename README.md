@@ -95,7 +95,8 @@ An example below:
 > 48. Bill Gates' wealth - male
 > 49. Jennifer Aniston's hair - female
 > 50. Tom Cruise's Scientology - genderless
-As seen by the output, ChatGPT began to include objects or things that correlate with the famous person listed, like for example Beyonce's popular Album Lemonade or Kim Kardashian's butt. The perplexing thing is why some of the objects have been assigned genders like Oprah Winfrey's media empire being female. 
+
+As seen by the output, ChatGPT began to include objects or things that correlate with the famous person listed, like for example Beyonce's popular Album Lemonade or Kim Kardashian's butt. This makes sense since ChatGPT determines what to write next based on the probability the word would be with what has been written already, so when writing Kim Kardashian, there's likely a lot of material in GPT's corpus that talks about her posterior and so that impacts GPT's output. The perplexing thing is why some of the objects have been assigned genders like Oprah Winfrey's media empire being female while others such as Elon Musk's Tesla are listed as genderless. I currently have no working explanation for the output and argue it reflects the Black Box nature of the language model. 
 
 ### Speculation of Cause
 
