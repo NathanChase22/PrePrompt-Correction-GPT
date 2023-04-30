@@ -1,4 +1,4 @@
-# EthicalGPT 
+# PrePrompt Correction GPT 
 ## Overview 
 The goal of this project was to show whether having conversations about gender bias of varying degrees of directness and acceptance will impact ChatGPT's gender bias when giving responses. We expect that because GPT records previous immediate conversations, that by talking about gender bias with GPT before prompting it a question to reveal its gender bias, that it will be less biased. 
 
