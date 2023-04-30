@@ -31,7 +31,7 @@ In order to be able to get consistency in output and be able to quantify GPT's o
 > 
 > After, resend the same 34 (CATEGORY) and list their gender. Put the gender in " - (GENDER)" format
 
-** Final Prompt: **
+**Final Prompt:**
 > List 68 (CATEGORY)
 > 
 > After, resend the same 68 (CATEGORY) and list their gender. Put the gender in " - (GENDER)" format
