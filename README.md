@@ -144,3 +144,15 @@ For instance, a peer review comment asked whether our results for the basketball
 Another consideration is how GPT should address this bias. Initially, we believed that achieving complete gender parity when listing a group with their gender was the ideal solution. However, would it be better for GPT, aware of its biased corpus, to simply refuse to give an output citing ethical issues with perpetuating bias? Our experiment suggests that prompting GPT to refuse answers that could lead to gender bias would be much more effective in reducing bias.
 
 Unfortunately, these issues will persist as long as language model corpora, and ultimately the outside system, contain gender bias. While we can make efforts to tailor responses and improve the equality of output within GPT's system, there are limitations to these efforts if they are only implemented within the model and not in conjunction with outside efforts.
+
+## Technical Details
+
+Technical Details
+
+When the program starts, an array of categories to test for is created. Then, several instances of a class called ChatHistory are generated. These instances store different conversations that took place between the AI and the user. After that, a Test object is created. This object accepts the conversation and the array to test for as input, running all permutations for types of conversation and categories. The Test class is responsible for generating the prompt.
+
+The RequestCreator class is then used to define where to send information and what information to send. In this case, information is sent to ChatGPT's API URL, which is: https://api.openai.com/v1/chat/completions. The information includes the token for billing, the conversations, and the type of model. ChatGPTRequester is used to format the request and add the information to a queue.
+
+After all calls are prepared, RequestQueue sends the requests one by one. This is done to avoid being rate-limited by ChatGPT. RequestQueue accesses HttpUtil, which contains methods for sending data to the provided URL and returning information. Subsequently, RequestQueue formats the response, prints it in a user-friendly format, and writes the response to a .txt file.
+
+The final step is to benchmark the program. GenderBenchmarking is utilized to parse the received response. It examines the number of instances of the words "male" and "female" and calculates their sum. A GetScore function can then be called to obtain a score between 0 and 1. Finally, RequestQueue prints the score and sends it to a separate file.
