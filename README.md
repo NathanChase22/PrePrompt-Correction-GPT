@@ -147,8 +147,6 @@ Unfortunately, these issues will persist as long as language model corpora, and 
 
 ## Technical Details
 
-Technical Details
-
 When the program starts, an array of categories to test for is created. Then, several instances of a class called ChatHistory are generated. These instances store different conversations that took place between the AI and the user. After that, a Test object is created. This object accepts the conversation and the array to test for as input, running all permutations for types of conversation and categories. The Test class is responsible for generating the prompt.
 
 The RequestCreator class is then used to define where to send information and what information to send. In this case, information is sent to ChatGPT's API URL, which is: https://api.openai.com/v1/chat/completions. The information includes the token for billing, the conversations, and the type of model. ChatGPTRequester is used to format the request and add the information to a queue.
